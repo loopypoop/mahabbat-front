@@ -1,0 +1,10 @@
+[
+  {
+    "context": [
+      "/restapi"
+    ],
+    "target": "https://localhost:8099",
+    "secure": false,
+    "changeOrigin": true
+  }
+]
