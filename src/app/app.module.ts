@@ -6,6 +6,8 @@ import { HeaderComponent } from './layout/header/header.component';
 import { ContentComponent } from './layout/content/content.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import {AppRoutingModule} from './app-routing.module';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,9 @@ import {AppRoutingModule} from './app-routing.module';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule,
     AppRoutingModule
   ],
   providers: [],
